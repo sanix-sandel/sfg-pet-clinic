@@ -1,4 +1,4 @@
-package sanix.sfgpetclinic.model;
+package model;
 
 import java.time.LocalDate;
 

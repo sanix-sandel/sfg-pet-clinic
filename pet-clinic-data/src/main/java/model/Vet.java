@@ -1,4 +1,4 @@
-package sanix.sfgpetclinic.model;
+package model;
 
 public class Vet extends Person{
 }
