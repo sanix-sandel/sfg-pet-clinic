@@ -1,4 +1,4 @@
-package services;
+package sanix.services;
 
 import java.util.Set;
 

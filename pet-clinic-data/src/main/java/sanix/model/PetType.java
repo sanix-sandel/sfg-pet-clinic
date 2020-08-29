@@ -1,4 +1,4 @@
-package model;
+package sanix.model;
 
 public class PetType extends BaseEntity{
     private String name;

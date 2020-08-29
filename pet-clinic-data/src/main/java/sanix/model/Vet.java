@@ -1,4 +1,4 @@
-package model;
+package sanix.model;
 
 public class Vet extends Person{
 }

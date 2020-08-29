@@ -1,4 +1,4 @@
-package model;
+package sanix.model;
 
 import java.time.LocalDate;
 

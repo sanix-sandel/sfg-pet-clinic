@@ -1,13 +1,12 @@
 package sanix.bootstrap;
 
-import model.Owner;
-import model.Vet;
+import sanix.model.Owner;
+import sanix.model.Vet;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import services.OwnerService;
-import services.VetService;
-import services.map.OwnerServiceMap;
-import services.map.VetServiceMap;
+import sanix.services.OwnerService;
+import sanix.services.VetService;
+
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -15,9 +14,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader(){
-        ownerService=new OwnerServiceMap();
-        vetService=new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

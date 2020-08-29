@@ -1,12 +1,13 @@
-package services.map;
+package sanix.services.map;
 
-import model.Owner;
-import model.Pet;
+import sanix.services.PetService;
+import sanix.model.Pet;
 
-import services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override

@@ -1,8 +1,7 @@
-package services;
+package sanix.services;
 
-import model.Vet;
+import sanix.model.Vet;
 
-import java.util.Set;
 
 public interface VetService extends CrudService<Vet, Long>{
 
